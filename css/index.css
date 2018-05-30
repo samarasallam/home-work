@@ -1,0 +1,138 @@
+
+/* general
+*/
+html {
+	background-image: url("bg.jpg") ;
+	font: 14px/1 'Open Sans', sans-serif;
+	color: #555;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/* navigation */
+.topnav {
+
+   	background-color: #5f5d5d;
+    position: fixed;
+    width:800px;
+  
+    margin-left: 270px;
+    float: left; 
+
+}
+
+.topnav a {
+	float: right;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+
+a:hover {
+	background-color:#55d7a0;
+}
+
+
+.container{
+    background-color: #fff;
+    margin: 0 auto; 
+    width: 800px;
+}
+
+.icon {
+	color: #55d7a0
+
+}
+
+#img-personal {
+	float: left;
+	padding: 20px ;
+
+}
+
+
+h3  {
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	margin-top:60px; 
+}
+
+h4 {
+	font-size: 15px;
+	padding-left: 30px;
+}
+.progress-bar {
+	 background: #5f5d5d;
+    border-radius: 10px;
+    height: 20px;
+    width: 300px;
+    padding: 3px;
+    margin: 30px;  
+    box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+}
+
+.progress-bar span  {
+	display: block;
+    background: #55d7a0;
+    height: 100%;
+    border-radius: 9px;
+    text-align: center;
+    line-height: 20px;
+}
+
+section {
+	float: right;
+	text-align: left;
+}
+
+.gallery {
+	display: inline-block;
+	overflow: auto;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    border: 1px solid white;        
+    background-color: #EDEDED; 
+    float: left;
+}
+
+.gallery img {
+	padding: 10px;
+	margin: 10px;
+}
+
+.galley: hover {
+	border: 1px solid #999;
+}
+
+.galley .desc {
+	text-align: center;
+	padding: 15px;
+}
+.responsive {
+	padding: 0 6px;
+	float: left;
+	width: 24.99999%;
+}
+
+.news {
+	-moz-column-count: 3;
+	 -moz-column-gap: 30px;
+}
+
+
+ 
